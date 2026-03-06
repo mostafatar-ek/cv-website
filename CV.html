@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mostafa Tarek — Computer Science Student</title>
+  <meta name="description" content="Mostafa Tarek — CS student portfolio, projects, and CV." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon-mt.svg" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="CV.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <a class="logo" href="#top" aria-label="Home">
+      <span class="dot"></span> MT
+    </a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certs">Certificates</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+
+      <a class="btn small" href="assets/Mostafa_Tarek_International_CV_v2%20(3).pdf" target="_blank" rel="noopener">
+        Download CV
+      </a>
+
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <!-- Mobile drawer -->
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#certs">Certificates</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+    <a class="btn" href="assets/Mostafa_Tarek_International_CV_v2%20(3).pdf" target="_blank" rel="noopener">Download CV</a>
+  </aside>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <p class="pill">Computer Science Student • Egypt</p>
+          <h1>Mostafa <span class="grad">Tarek</span></h1>
+
+          <p class="lead">
+            CS student (not specialized yet) building strong foundations in
+            <b>Problem Solving</b>, <b>OOP</b>, and <b>Web Development</b>.
+            I like shipping clean projects and learning by doing.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#" data-copy-email="proytxox@gmail.com">Email Me</a>
+          </div>
+
+          <div class="hero-social">
+            <a class="social" href="https://github.com/tftfboy" target="_blank" rel="noopener">GitHub</a>
+            <a class="social" href="https://www.linkedin.com/in/mostafa-tarek-517aa3351/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+
+          <div class="mini-proof">
+            <div class="stat">
+              <div class="k">Focus</div>
+              <div class="v">Python • Web • SQL</div>
+            </div>
+            <div class="stat">
+              <div class="k">Studied</div>
+              <div class="v">OOP (Java) • Advanced Java (Servlets, JDBC, Spring Boot) • Data Structures • Oracle DB</div>
+            </div>
+            <div class="stat">
+              <div class="k">Certificate</div>
+              <div class="v">Introduction to AI</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card glass">
+            <div class="card-head">
+              <!-- Your photo -->
+              <img class="pfp" id="profilePhoto" src="assets/me.jpg" alt="Mostafa Tarek photo" />
+              <div>
+                <p class="name">Mostafa Tarek</p>
+                <p class="role">CS Student • Junior Developer</p>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="now">
+              <p class="label">Now</p>
+              <p>Building portfolio projects + improving problem solving.</p>
+
+              <p class="label mt">Next</p>
+              <p>More real-world full-stack projects and internship readiness.</p>
+
+              <p class="label mt">Open to</p>
+              <p>Internships • Junior roles • Freelance projects</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="links">
+              <a href="https://github.com/tftfboy" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://www.linkedin.com/in/mostafa-tarek-517aa3351/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="#" data-copy-email="proytxox@gmail.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section container">
+      <div class="section-title">
+        <h2>What I do</h2>
+        <p class="muted">Simple, clear, and results-focused.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <h3>Problem Solving</h3>
+          <p class="muted">Algorithms, logic, debugging, and clean thinking.</p>
+          <ul class="bullets">
+            <li>Studied Problem Solving with C</li>
+            <li>Strong fundamentals & practice</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>OOP & Software Basics</h3>
+          <p class="muted">Structured code, maintainability, and system thinking.</p>
+          <ul class="bullets">
+            <li>Studied OOP with Java</li>
+            <li>Studying Advanced Programming with Java (Servlets, JDBC, Spring Boot, frameworks)</li>
+            <li>SE fundamentals (requirements, use cases)</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Web & Databases</h3>
+          <p class="muted">Modern UI pages + SQL and database fundamentals.</p>
+          <ul class="bullets">
+            <li>HTML / CSS / JavaScript</li>
+            <li>SQL + Oracle Database</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p class="muted">Selected work. More on GitHub.</p>
+      </div>
+
+      <div class="grid-2">
+        <article class="card">
+          <div class="tag">Python</div>
+          <h3>Password Manager</h3>
+          <p class="muted">A password manager project to practice file handling and user flow.</p>
+          <ul class="bullets">
+            <li>Structured data storage</li>
+            <li>Clean code and validation</li>
+          </ul>
+          <div class="card-actions">
+            <a class="link" href="https://github.com/tftfboy/PasswordManager" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="tag">Python</div>
+          <h3>Snake Game</h3>
+          <p class="muted">Classic snake game to practice logic, input, and game loop.</p>
+          <ul class="bullets">
+            <li>Keyboard controls + scoring</li>
+            <li>Improved debugging skills</li>
+          </ul>
+          <div class="card-actions">
+            <a class="link" href="https://github.com/tftfboy/Snake-Game" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="tag">Java</div>
+          <h3>Health Care Management System</h3>
+          <p class="muted">A health care system project focused on management workflows and backend logic.</p>
+          <ul class="bullets">
+            <li>Practice with real-world system structure</li>
+            <li>Improved Java project organization</li>
+          </ul>
+          <div class="card-actions">
+            <a class="link" href="https://github.com/tftfboy/Health-Care-Management-System" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="tag">Software Engineering</div>
+          <h3>Nestify (Concept Project)</h3>
+          <p class="muted">
+            App concept that helps users design an apartment using a style survey.
+          </p>
+          <ul class="bullets">
+            <li>Scope, goal, objectives</li>
+            <li>Functional & non-functional requirements</li>
+            <li>Use case diagram planning</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="tag">Web</div>
+          <h3>Responsive UI Pages</h3>
+          <p class="muted">Modern layouts built with responsive design and clean spacing.</p>
+          <ul class="bullets">
+            <li>Mobile-friendly layout</li>
+            <li>Modern card-based UI</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p class="muted">Grouped for readability.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Core</h3>
+          <div class="chips">
+            <span class="chip">Problem Solving (C)</span>
+            <span class="chip">OOP (Java)</span>
+            <span class="chip">Data Structures</span>
+            <span class="chip">Git / GitHub</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Languages</h3>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">C</span>
+            <span class="chip">C++</span>
+            <span class="chip">SQL</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Web & DB</h3>
+          <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Java Servlets</span>
+            <span class="chip">JDBC</span>
+            <span class="chip">Spring Boot</span>
+            <span class="chip">Responsive Design</span>
+            <span class="chip">Oracle Database</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certs" class="section container">
+      <div class="section-title">
+        <h2>Certificates</h2>
+        <p class="muted">Put your files in the assets folder.</p>
+      </div>
+
+      <div class="grid-2">
+        <article class="card">
+          <div class="tag">Certificate</div>
+          <h3>Introduction to AI</h3>
+          <p class="muted">AI fundamentals and core concepts.</p>
+          <div class="card-actions">
+            <a class="link" href="assets/certificate_no_watermark.pdf" target="_blank" rel="noopener">
+              View Certificate →
+            </a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="tag">Courses</div>
+          <h3>Academic / Training</h3>
+          <ul class="bullets">
+            <li>OOP with Java</li>
+            <li>Problem Solving with C</li>
+            <li>Database using Oracle</li>
+            <li>Advanced Programming (Java Servlets, JDBC, Spring Boot, frameworks)</li>
+            <li>Data Structures</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section container">
+      <div class="section-title">
+        <h2>Education</h2>
+        <p class="muted">Short and clear.</p>
+      </div>
+
+      <div class="card">
+        <h3>Computer Science Student</h3>
+        <p class="muted">
+          Not specialized yet — building strong foundations and exploring tracks.
+        </p>
+        <div class="chips">
+          <span class="chip">Software Engineering basics</span>
+          <span class="chip">Web Development</span>
+          <span class="chip">Databases</span>
+          <span class="chip">AI Foundations</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p class="muted">Fastest way: email.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Email</h3>
+          <p class="muted">Click to contact me directly.</p>
+          <a class="btn" href="#" data-copy-email="proytxox@gmail.com">
+            proytxox@gmail.com
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Links</h3>
+          <div class="links-col">
+            <a class="link" href="https://github.com/tftfboy" target="_blank" rel="noopener">GitHub →</a>
+            <a class="link" href="https://www.linkedin.com/in/mostafa-tarek-517aa3351/" target="_blank" rel="noopener">LinkedIn →</a>
+          </div>
+          <p class="muted small">Tip: pin your top 3 repos on GitHub for recruiters.</p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p class="muted small">© <span id="year"></span> Mostafa Tarek • Built with HTML/CSS/JS</p>
+      </footer>
+    </section>
+  </main>
+
+  <div class="photo-modal" id="photoModal" aria-hidden="true">
+    <img class="photo-modal-img" src="assets/me.jpg" alt="Mostafa Tarek photo enlarged" />
+  </div>
+
+  <!-- JS LINK -->
+  <script src="CV.js"></script>
+</body>
+</html>
